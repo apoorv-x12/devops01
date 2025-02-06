@@ -46,4 +46,4 @@ if __name__ == "__main__":
         sys.exit(1)
     
     commit_msg = sys.argv[1]
-    automate_git('commit_msg')
+    automate_git(commit_msg)
