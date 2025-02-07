@@ -9,7 +9,7 @@ def automate_git(commit_message):
     3. git push
     """
     try:
-        # Initialize the repository in the current directory.
+        # Initialize the repository in the current directory...
         repo = Repo(".")
         
         # Check if the repository is in a valid state.
