@@ -17,7 +17,7 @@ def automate_git(commit_message):
             print("The repository is bare. Exiting.")
             return
         
-        # Stage all changes.
+        # Stage all changes. adding some things
         print("Adding all changes...")
         repo.git.add('--all')
         
